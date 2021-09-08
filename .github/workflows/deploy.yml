@@ -16,7 +16,7 @@ jobs:
           python-version: 3.9
       
       - name: Configure AWS account
-        uses: aws-actions/configure-aws-credentails@v1
+        #uses: aws-actions/configure-aws-credentails@v1
         with:
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
